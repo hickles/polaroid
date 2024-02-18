@@ -50,17 +50,17 @@ main {
 }
 
 .details ul li.wifi {
-    background: url('wifi-solid.svg') no repeat center left;
+    background: url('wifi-solid.svg') no-repeat center left;
 }
 
 .details ul li.cloud {
-    background: url('cloud-arrow-up-solid.svg') no repeat center left;
+    background: url('cloud-arrow-up-solid.svg') no-repeat center left;
 }
 
 .details ul li.qr{
-    background: url('qrcode-solid.svg') no repeat center left;
+    background: url('qrcode-solid.svg') no-repeat center left;
 }
 
 .details ul li.photos {
-    background: url('photo-film-solid.svg') no repeat center left;
+    background: url('photo-film-solid.svg') no-repeat center left;
 }
