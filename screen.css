@@ -116,7 +116,7 @@ h3 {
 
 .cta input[value = "Keep in touch"] {
     text-transform: uppercase;
-    color: var(--main-bg-color);
+    color: #FFFFFF;
     font-weight: bold;
     font-size: 20px;
 }
