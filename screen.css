@@ -26,7 +26,7 @@ header h1{
 }
 
 main {
-    background: url('Polaroid.png') no-repeat center 100px;
+    background: url('polaroid.png') no-repeat center 100px;
     margin: 0 auto; 
     width: 1000px;
 }
@@ -44,8 +44,23 @@ main {
 }
 
 .details ul li {
-    background: url('qrcode.svg') no repeat center left;
     list-style-type: none;
     margin: 10px 0;
     padding: 0 0 0 40px;
+}
+
+.details ul li.wifi {
+    background: url('wifi-solid.svg') no repeat center left;
+}
+
+.details ul li.cloud {
+    background: url('cloud-arrow-up-solid.svg') no repeat center left;
+}
+
+.details ul li.qr{
+    background: url('qrcode-solid.svg') no repeat center left;
+}
+
+.details ul li.photos {
+    background: url('photo-film-solid.svg') no repeat center left;
 }
