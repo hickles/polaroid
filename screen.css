@@ -43,24 +43,81 @@ main {
     margin: 0;
 }
 
+h3 {
+    font-size: 64px;
+    text-align: center;
+    margin: 0;
+    padding-top: 24px;
+}
+
+.details p {
+    font-size: 28px;
+    line-height: 42px;
+    margin: 0;
+    padding: 24px 0;
+}
+
 .details ul li {
     list-style-type: none;
-    margin: 10px 0;
-    padding: 0 0 0 40px;
+    font-size: 28px;
+    line-height: 72px;
+    padding-left: 72px;
 }
 
 .details ul li.wifi {
     background: url('wifi-solid.svg') no-repeat center left;
+    background-size: 50px 40px;
 }
 
 .details ul li.cloud {
     background: url('cloud-arrow-up-solid.svg') no-repeat center left;
+    background-size: 50px 40px;
 }
 
 .details ul li.qr{
     background: url('qrcode-solid.svg') no-repeat center left;
+    background-size: 46px 53px;
 }
 
 .details ul li.photos {
     background: url('photo-film-solid.svg') no-repeat center left;
+    background-size: 48px 38px;
 }
+
+.cta h3 {
+    padding-top: 72px;
+}
+
+.cta div {
+    margin-top: 24px;
+    border: 2px var(--main-bg-color);
+    border-radius: 40px;
+    padding: 47px;
+    background: #E1E2E1 ;
+  }
+
+.cta input {
+    width: 600px;
+    height: 64px;
+    border: 2px color var(--primary-text-color)
+}
+
+.cta input[type = "text"] {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 24px;
+}
+
+.cta input[type = "button"] {
+   background-color: var(--accent-color);
+   width: 250px;
+   height: 66px;
+}
+
+.cta input[value = "Keep in touch"] {
+    text-transform: uppercase;
+    color: var(--main-bg-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+
